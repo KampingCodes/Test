@@ -1,0 +1,42 @@
+{
+  "name": "swe-practicum-ai-diagnostic-tool",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "serve dist"
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^2.7.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-jwt": "^8.5.1",
+    "express-oauth2-jwt-bearer": "^1.7.1",
+    "markdown-it": "^14.1.0",
+    "mermaid": "^11.12.1",
+    "mongodb": "^6.20.0",
+    "node-fetch": "^3.3.2",
+    "pinia": "^3.0.3",
+    "serve": "^14.2.5",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1",
+    "vue3-cookies": "^1.0.6",
+    "vue3-google-login": "^2.0.34",
+    "vue3-google-signin": "^2.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^6.4.0",
+    "vite-plugin-mkcert": "^1.17.9"
+  },
+  "engines": {
+    "node": "22.x",
+    "npm": "9.x"
+  }
+}
